@@ -90,7 +90,7 @@ function Main() {
                   </div>
 
                   <p className="bottom-info">
-                    Copyright - smit savaliya
+                    Copyright - thesmitsavaliya
                   </p>
                 </div>
               </div>
