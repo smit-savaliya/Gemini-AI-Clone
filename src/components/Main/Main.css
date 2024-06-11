@@ -26,6 +26,7 @@
     max-width: 900px;
     /* border: 2px solid blue; */
     margin: auto;
+   
 }
 
 .main-container .info{
@@ -53,7 +54,7 @@
 }
 
 .main-container .cards .card{
-    height: 150px;
+    height: 200px;
     /* max-width: 200px; */
     padding: 15px;
     background-color:cornsilk;
@@ -83,7 +84,7 @@
 
 .main-bottom{
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     max-width: 900px;
     padding: 0px 20px;
@@ -105,7 +106,7 @@
     cursor: pointer;
 }
 
-.bottom-info{
+.main .bottom-info{
     text-align: center;
     margin-top: 10px;
     padding: 10px;
@@ -188,8 +189,21 @@
 }
 
 @media (max-width:600px) {
-    .main-bottom{
-        position: relative;
-        bottom: 0px;
+    
+    .main-bottom input {
+        flex: none;
+        width: 150px;
+
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+
+    .search-box{
+        padding: 5px 10px;
+    }
+
+    .search-box div{
+        gap: 5px;
     }
 }
